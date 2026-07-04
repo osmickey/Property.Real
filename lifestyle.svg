@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="Luxury interior with skyline view">
+  <defs>
+    <linearGradient id="life-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1B0E"/>
+      <stop offset="40%" stop-color="#5C4033"/>
+      <stop offset="100%" stop-color="#8B6914"/>
+    </linearGradient>
+    <linearGradient id="life-window" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5B8DB8"/>
+      <stop offset="100%" stop-color="#E07A5F"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" fill="url(#life-bg)"/>
+  <!-- Window -->
+  <rect x="450" y="80" width="380" height="520" fill="url(#life-window)" opacity="0.85" rx="4"/>
+  <rect x="460" y="90" width="360" height="500" fill="#1B4965" opacity="0.3"/>
+  <!-- Skyline through window -->
+  <polygon points="640,300 630,450 650,450" fill="#0D1B2A" opacity="0.6"/>
+  <rect x="550" y="380" width="40" height="120" fill="#0D1B2A" opacity="0.5"/>
+  <rect x="720" y="360" width="35" height="140" fill="#0D1B2A" opacity="0.5"/>
+  <!-- Sofa -->
+  <rect x="60" y="480" width="320" height="100" rx="12" fill="#C9A227" opacity="0.8"/>
+  <rect x="80" y="460" width="280" height="40" rx="8" fill="#E8C547" opacity="0.6"/>
+  <!-- Coffee table -->
+  <rect x="180" y="560" width="120" height="12" rx="4" fill="#FAF8F5" opacity="0.4"/>
+  <!-- Floor lamp -->
+  <rect x="380" y="300" width="6" height="280" fill="#E8C547" opacity="0.5"/>
+  <ellipse cx="383" cy="290" rx="30" ry="15" fill="#E07A5F" opacity="0.4"/>
+  <!-- Rug -->
+  <ellipse cx="220" cy="620" rx="180" ry="40" fill="#0D7377" opacity="0.3"/>
+</svg>

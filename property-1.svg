@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Palm Jumeirah villa">
+  <defs>
+    <linearGradient id="p1bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D7377"/>
+      <stop offset="50%" stop-color="#14A085"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+    <linearGradient id="p1sand" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C547"/>
+      <stop offset="100%" stop-color="#D4A853"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p1bg)"/>
+  <rect y="420" width="800" height="180" fill="url(#p1sand)" opacity="0.7"/>
+  <!-- Villa -->
+  <rect x="250" y="280" width="300" height="140" rx="4" fill="#FAF8F5" opacity="0.9"/>
+  <polygon points="250,280 400,200 550,280" fill="#E8C547"/>
+  <rect x="320" y="340" width="60" height="80" fill="#1B4965" opacity="0.6"/>
+  <rect x="420" y="340" width="60" height="80" fill="#1B4965" opacity="0.6"/>
+  <!-- Palm -->
+  <rect x="120" y="350" width="12" height="120" fill="#8B6914"/>
+  <ellipse cx="126" cy="320" rx="50" ry="35" fill="#2D6A4F"/>
+  <ellipse cx="100" cy="340" rx="40" ry="28" fill="#40916C"/>
+  <ellipse cx="150" cy="340" rx="40" ry="28" fill="#40916C"/>
+  <!-- Water -->
+  <rect y="480" width="800" height="120" fill="#0D7377" opacity="0.5"/>
+  <text x="400" y="560" text-anchor="middle" fill="#FAF8F5" font-family="Georgia, serif" font-size="22" opacity="0.9">Palm Jumeirah</text>
+</svg>

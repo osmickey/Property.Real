@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Modern kitchen">
+  <defs>
+    <linearGradient id="g2bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF8F5"/>
+      <stop offset="100%" stop-color="#E8DDD0"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g2bg)"/>
+  <!-- Cabinets -->
+  <rect x="40" y="120" width="520" height="200" fill="#0D1B2A" opacity="0.85" rx="4"/>
+  <rect x="60" y="140" width="160" height="160" fill="#1B4965" opacity="0.5"/>
+  <rect x="240" y="140" width="120" height="160" fill="#C9A227" opacity="0.4"/>
+  <rect x="380" y="140" width="160" height="160" fill="#1B4965" opacity="0.5"/>
+  <!-- Counter -->
+  <rect x="40" y="300" width="520" height="20" fill="#E8C547" opacity="0.7"/>
+  <!-- Island -->
+  <rect x="200" y="320" width="200" height="60" fill="#0D7377" opacity="0.6" rx="4"/>
+  <!-- Pendant lights -->
+  <circle cx="200" cy="80" r="15" fill="#E07A5F" opacity="0.6"/>
+  <circle cx="300" cy="70" r="18" fill="#E07A5F" opacity="0.7"/>
+  <circle cx="400" cy="80" r="15" fill="#E07A5F" opacity="0.6"/>
+  <text x="300" y="385" text-anchor="middle" fill="#0D1B2A" font-family="Georgia, serif" font-size="16" opacity="0.6">Designer Kitchen</text>
+</svg>

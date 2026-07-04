@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1024" role="img" aria-label="Dubai skyline mobile">
+  <defs>
+    <linearGradient id="msky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B4965"/>
+      <stop offset="50%" stop-color="#E07A5F"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+    <linearGradient id="mwater" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0D7377"/>
+      <stop offset="100%" stop-color="#1B4965"/>
+    </linearGradient>
+  </defs>
+  <rect width="768" height="1024" fill="url(#msky)"/>
+  <rect y="700" width="768" height="324" fill="url(#mwater)" opacity="0.85"/>
+  <polygon points="384,200 365,650 403,650" fill="#0D1B2A" opacity="0.7"/>
+  <rect x="150" y="520" width="60" height="180" fill="#0D1B2A" opacity="0.5"/>
+  <rect x="250" y="480" width="50" height="220" fill="#0D1B2A" opacity="0.55"/>
+  <rect x="480" y="500" width="70" height="200" fill="#0D1B2A" opacity="0.55"/>
+  <rect x="580" y="540" width="55" height="160" fill="#0D1B2A" opacity="0.5"/>
+  <circle cx="384" cy="660" rx="200" ry="20" fill="#E8C547" opacity="0.25"/>
+</svg>

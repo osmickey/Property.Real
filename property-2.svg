@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Downtown Dubai penthouse">
+  <defs>
+    <linearGradient id="p2bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B2A"/>
+      <stop offset="60%" stop-color="#1B4965"/>
+      <stop offset="100%" stop-color="#5B8DB8"/>
+    </linearGradient>
+    <linearGradient id="p2gold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8C547"/>
+      <stop offset="100%" stop-color="#C9A227"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#p2bg)"/>
+  <!-- Burj -->
+  <polygon points="400,80 375,520 425,520" fill="url(#p2gold)" opacity="0.9"/>
+  <polygon points="400,50 395,80 405,80" fill="#E8C547"/>
+  <!-- City lights -->
+  <rect x="100" y="400" width="50" height="200" fill="#1B4965" opacity="0.8"/>
+  <rect x="180" y="350" width="40" height="250" fill="#1B4965" opacity="0.7"/>
+  <rect x="550" y="380" width="55" height="220" fill="#1B4965" opacity="0.75"/>
+  <rect x="640" y="420" width="45" height="180" fill="#1B4965" opacity="0.7"/>
+  <!-- Window lights -->
+  <rect x="110" y="420" width="8" height="8" fill="#E8C547" opacity="0.8"/>
+  <rect x="130" y="450" width="8" height="8" fill="#E8C547" opacity="0.6"/>
+  <rect x="560" y="400" width="8" height="8" fill="#E07A5F" opacity="0.8"/>
+  <rect x="580" y="440" width="8" height="8" fill="#E8C547" opacity="0.7"/>
+  <!-- Penthouse interior glow -->
+  <rect x="280" y="480" width="240" height="80" fill="#E07A5F" opacity="0.15" rx="4"/>
+  <text x="400" y="570" text-anchor="middle" fill="#E8C547" font-family="Georgia, serif" font-size="22">Downtown Dubai</text>
+</svg>

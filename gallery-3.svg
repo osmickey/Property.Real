@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Private terrace at sunset">
+  <defs>
+    <linearGradient id="g3sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E07A5F"/>
+      <stop offset="50%" stop-color="#C9A227"/>
+      <stop offset="100%" stop-color="#1B4965"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#g3sky)"/>
+  <!-- Terrace floor -->
+  <rect y="280" width="600" height="120" fill="#5C4033" opacity="0.6"/>
+  <!-- Railing -->
+  <rect x="0" y="250" width="600" height="4" fill="#FAF8F5" opacity="0.5"/>
+  <rect x="50" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <rect x="150" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <rect x="250" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <rect x="350" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <rect x="450" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <rect x="550" y="200" width="4" height="55" fill="#FAF8F5" opacity="0.4"/>
+  <!-- Furniture -->
+  <rect x="180" y="290" width="80" height="50" fill="#0D7377" opacity="0.5" rx="6"/>
+  <rect x="340" y="295" width="80" height="50" fill="#0D7377" opacity="0.5" rx="6"/>
+  <!-- Sun -->
+  <circle cx="480" cy="100" r="50" fill="#E8C547" opacity="0.7"/>
+  <text x="300" y="375" text-anchor="middle" fill="#FAF8F5" font-family="Georgia, serif" font-size="16" opacity="0.85">Sunset Terrace</text>
+</svg>
